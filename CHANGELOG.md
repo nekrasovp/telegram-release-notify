@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+### Fixed
+
+- Make boolean input normalization compatible with the Bash version shipped on GitHub-hosted macOS runners.
+
+### Added
+
+- CI smoke tests on Ubuntu and macOS, plus ShellCheck validation.
+
 ## v1.0.0 - 2026-05-21
 
 Initial public release.
