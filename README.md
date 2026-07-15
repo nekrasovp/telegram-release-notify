@@ -1,8 +1,12 @@
 # Telegram Release Notify via Curl
 
+[![CI](https://github.com/nekrasovp/telegram-release-notify/actions/workflows/ci.yml/badge.svg)](https://github.com/nekrasovp/telegram-release-notify/actions/workflows/ci.yml)
+
 A tiny GitHub Action that sends release notifications to Telegram with **Bash + curl**.
 
 No server. No Docker. No Node.js. No package manager. No deployment.
+
+The action and smoke suite run on the Bash versions shipped by current GitHub-hosted Ubuntu and macOS runners.
 
 ## What it does
 

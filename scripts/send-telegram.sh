@@ -29,7 +29,8 @@ require_non_empty() {
 normalize_bool() {
   local name="$1"
   local value="${2:-}"
-  local lower="${value,,}"
+  local lower
+  lower="$(printf '%s' "$value" | tr '[:upper:]' '[:lower:]')"
 
   case "$lower" in
     true|1|yes|y|on) printf 'true' ;;
